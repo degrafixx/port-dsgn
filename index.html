@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Desain - Nama Kamu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      margin: 0.3rem 0 1rem;
+      font-size: 0.95rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    section {
+      padding: 4rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #444;
+    }
+    .about {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .portfolio img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .portfolio img:hover {
+      transform: scale(1.05);
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.7rem 1.5rem;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .contact a:hover {
+      background: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nama Kamu</h1>
+    <p>Graphic Designer | Logo & Branding</p>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#portfolio">Portofolio</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya seorang desainer grafis yang berfokus pada pembuatan logo, identitas visual, dan desain media sosial. Portofolio ini menampilkan beberapa karya terbaik saya.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portofolio</h2>
+    <div class="portfolio">
+      <img src="images/project1.jpg" alt="Project 1">
+      <img src="images/project2.jpg" alt="Project 2">
+      <img src="images/project3.jpg" alt="Project 3">
+      <img src="images/project4.jpg" alt="Project 4">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Kontak</h2>
+    <p>Ingin bekerja sama? Hubungi saya melalui:</p>
+    <a href="mailto:emailkamu@example.com">Email</a>
+    <a href="https://wa.me/628123456789" target="_blank">WhatsApp</a>
+    <a href="https://instagram.com/username" target="_blank">Instagram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nama Kamu. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
